@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <style>
+        body {
+            background-color: #f8f9fa; /* Light grey background */
+            padding-top: 3rem; /* Top padding for content */
+        }
+        .container {
+            max-width: 600px; /* Limiting container width */
+            background-color: #ffffff; /* White background for form */
+            padding: 2rem; /* Padding inside the container */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+        }
+        h1 {
+            text-align: center; /* Center align heading */
+        }
+        .form-group {
+            margin-bottom: 1.5rem; /* Space between form groups */
+        }
+        textarea.form-control {
+            resize: none; /* Prevent resizing of textarea */
+        }
+        button[type="submit"] {
+            width: 100%; /* Full width button */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Translation Service</h1>
+        <p class="lead">Enter the text you wish to translate, choose the language, and click Translate!</p>
+        <form method="POST">
+            <div class="form-group">
+                <textarea name="text" cols="20" rows="5" class="form-control" placeholder="Enter text to translate"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="language">Language:</label>
+                <select name="language" class="form-control">
+                    <option value="en">English</option>
+                    <option value="it">Italian</option>
+                    <option value="ja">Japanese</option>
+                    <option value="ru">Russian</option>
+                    <option value="de">German</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-success">Translate!</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Bootstrap JS Bundle (Popper.js included) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-KyZXEAg3QhqLMpG8r+WUpO2HfH8q9nIuRJyF6a5MBQsPZjZ+yCU5HG91b7Hp5ZNH" crossorigin="anonymous"></script>
+</body>
+</html>
