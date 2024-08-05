@@ -33,7 +33,7 @@ You will see the Key 1 and Key 2 under Keys and Endpoint. Copy one of the keys.
 
 Copy the Endpoint URL.
 
-   -Python 3.6 or later installed on your machine. You can download Python from [Here](https://www.python.org/downloads/)
+
 
 
 
