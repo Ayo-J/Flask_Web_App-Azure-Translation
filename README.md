@@ -2,6 +2,13 @@
 # Flask Web App with Azure Translation Service
 
 
+This project is a Flask web application that integrates Azure's Translation Service for text translation and language detection. The frontend is built using HTML and CSS, providing a responsive and user-friendly interface. The backend is developed with Python Flask, which handles the server-side logic and integrates with Azure's Translation API for real-time text translation.
+
+Tech Stack
+Frontend: HTML, CSS
+Backend: Python Flask
+API Integration: Azure Translation Service
+
 
 ## Acknowledgements
 
