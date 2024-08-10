@@ -6,7 +6,11 @@ This project is a Flask web application that integrates Azure's Translation Serv
 
 Tech Stack
 Frontend: HTML, CSS
+
+
 Backend: Python Flask
+
+
 API Integration: Azure Translation Service
 
 
